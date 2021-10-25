@@ -1,0 +1,36 @@
+Open up a MySQL shell
+Ensure sql is active language, should say MySQL SQL
+Use \sql to switch
+Connect to database
+\connect root@localhost
+Password: SeniorDesign418
+Show all databases to see them
+SHOW DATABASES;
+Create a database if needed
+CREATE DATABASE SeniorDesign;
+Switch to use that database
+USE SeniorDesign;
+Show all tables in the database
+SHOW TABLES;
+See what is in the table
+SELECT * FROM WebDB;
+
+CREATE TABLE WebDB (
+	userID int,
+	userName varchar(255),
+	password varchar(255),
+	firstName varchar(255),
+	lastName varchar(255),
+	userEmail varchar(255),
+	userAccess int
+);
+ADD institution name
+
+Python starting the server
+Python manage.py runserver
+View site at http://127.0.0.1:8000/
+Add server number after runserver to change port number
+
+Polls: http://localhost:8000/polls/
+
+Path of table: c:\Users\All Users\MySQL\MySQL Server 8.0\Data\seniordesign
